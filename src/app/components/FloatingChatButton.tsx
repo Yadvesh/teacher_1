@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {
-  MessageCircle,
+  Zap,
   X,
   Phone,
   Clock,
@@ -58,7 +58,7 @@ export function FloatingChatButton() {
         <Card className="fixed bottom-24 md:bottom-20 right-4 w-80 max-w-[calc(100vw-2rem)] shadow-xl z-50 animate-in slide-in-from-bottom-5">
           <div className="bg-primary text-white p-4 rounded-t-lg flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <MessageCircle className="w-5 h-5" />
+              <Zap className="w-5 h-5" />
               <span className="font-medium">Quick Help</span>
             </div>
             <button
@@ -119,7 +119,7 @@ export function FloatingChatButton() {
           </>
 
           {/* Icon */}
-          <MessageCircle className="w-6 h-6 relative z-10" />
+          <Zap className="w-6 h-6 relative z-10" />
 
           {/* Tooltip */}
           <span className="absolute right-full mr-3 bg-gray-900 text-white text-sm px-3 py-1 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
