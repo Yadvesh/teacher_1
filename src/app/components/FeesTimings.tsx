@@ -25,7 +25,7 @@ export function FeesTimings() {
   ];
 
   return (
-    <section id="fees-section" className="py-12 md:py-16 bg-white">
+    <section id="fees-section" className="scroll-mt-20 py-12 md:py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl text-foreground mb-2">Fees & Timings</h2>
@@ -62,7 +62,7 @@ export function FeesTimings() {
         </div>
 
         {/* Timings */}
-        <Card className="p-6 bg-blue-50 border-primary/30">
+        <Card id="timings-section" className="scroll-mt-20 p-6 bg-blue-50 border-primary/30">
           <div className="flex items-center gap-2 mb-4">
             <Clock className="w-5 h-5 text-primary" />
             <h3 className="text-foreground">Class Timings</h3>

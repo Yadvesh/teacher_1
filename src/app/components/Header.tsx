@@ -5,14 +5,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-1 min-w-0">
           {/* Logo placeholder */}
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
             <span className="text-white">T</span>
           </div>
-          <div className="hidden sm:block">
-            <p className="font-semibold text-foreground">[Teacher Name]</p>
-            <p className="text-xs text-muted-foreground">Tuition Classes</p>
+          <div className="min-w-0">
+            <p className="font-semibold text-foreground truncate">[Teacher Name]</p>
+            <p className="text-xs text-muted-foreground truncate">Tuition Classes</p>
           </div>
         </div>
 
